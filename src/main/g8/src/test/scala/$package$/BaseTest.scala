@@ -1,6 +1,9 @@
 package $package$;
 
+import org.scalactic.source.Position
 import org.scalatest._
+
+import scala.scalajs.js.JavaScriptException
 
 class BaseTest extends FunSuite with BeforeAndAfter{
 
