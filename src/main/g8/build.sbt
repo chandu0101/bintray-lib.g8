@@ -1,6 +1,6 @@
 name := $name$
 
-version := "2017.1.0"
+version := $version$
 
 enablePlugins(ScalaJSPlugin)
 
