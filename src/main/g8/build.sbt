@@ -23,7 +23,7 @@ scalacOptions ++= Seq(
 //bintray
 resolvers += Resolver.jcenterRepo
 
-organization := "scalajs-react-universe"
+organization := "scalajs-react-interface"
 
 licenses += ("Apache-2.0", url("https://www.apache.org/licenses/LICENSE-2.0.html"))
 
@@ -35,7 +35,6 @@ bintrayRepository := "maven"
 publishArtifact in Test := false
 
 //Test
-resolvers += Resolver.bintrayRepo("scalajs-react-universe", "maven")
+resolvers += Resolver.bintrayRepo("scalajs-react-interface", "maven")
 libraryDependencies += "org.scalatest" %%% "scalatest" % "3.0.0" % Test
-//libraryDependencies += "scalajs-react-universe" %%% "enzyme" % "2017.1.0" % Test
 scalaJSStage in Global := FastOptStage
